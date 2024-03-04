@@ -1,0 +1,3181 @@
+{
+    "nodes": [
+        "Spokane",
+        "Coeur d'Alene",
+        "Wenatchee",
+        "Othello",
+        "Walla Walla",
+        "Pasco",
+        "Pullman",
+        "Lewiston",
+        "Kennewick",
+        "Yakima",
+        "Ellensburg",
+        "Vancouver",
+        "Bellingham",
+        "Mt Vernon",
+        "Everett",
+        "Westin - Seattle",
+        "Tacoma",
+        "Olympia",
+        "Portland"
+    ],
+    "edges": [
+        [
+            "Spokane",
+            "Coeur d'Alene"
+        ],
+        [
+            "Spokane",
+            "Wenatchee"
+        ],
+        [
+            "Spokane",
+            "Othello"
+        ],
+        [
+            "Spokane",
+            "Pullman"
+        ],
+        [
+            "Wenatchee",
+            "Ellensburg"
+        ],
+        [
+            "Wenatchee",
+            "Westin - Seattle"
+        ],
+        [
+            "Othello",
+            "Yakima"
+        ],
+        [
+            "Walla Walla",
+            "Kennewick"
+        ],
+        [
+            "Walla Walla",
+            "Pasco"
+        ],
+        [
+            "Pasco",
+            "Kennewick"
+        ],
+        [
+            "Pasco",
+            "Yakima"
+        ],
+        [
+            "Pullman",
+            "Lewiston"
+        ],
+        [
+            "Kennewick",
+            "Yakima"
+        ],
+        [
+            "Kennewick",
+            "Portland"
+        ],
+        [
+            "Yakima",
+            "Ellensburg"
+        ],
+        [
+            "Yakima",
+            "Westin - Seattle"
+        ],
+        [
+            "Vancouver",
+            "Bellingham"
+        ],
+        [
+            "Vancouver",
+            "Westin - Seattle"
+        ],
+        [
+            "Bellingham",
+            "Mt Vernon"
+        ],
+        [
+            "Mt Vernon",
+            "Everett"
+        ],
+        [
+            "Everett",
+            "Westin - Seattle"
+        ],
+        [
+            "Westin - Seattle",
+            "Tacoma"
+        ],
+        [
+            "Westin - Seattle",
+            "Portland"
+        ],
+        [
+            "Tacoma",
+            "Olympia"
+        ],
+        [
+            "Olympia",
+            "Portland"
+        ]
+    ],
+    "experiment_index": 4,
+    "resultShortestPathForStretch": {
+        "Spokane": {
+            "Coeur d'Alene": 1,
+            "Wenatchee": 1,
+            "Othello": 1,
+            "Walla Walla": 4,
+            "Pasco": 3,
+            "Pullman": 1,
+            "Lewiston": 2,
+            "Kennewick": 3,
+            "Yakima": 2,
+            "Ellensburg": 2,
+            "Vancouver": 4,
+            "Bellingham": 5,
+            "Mt Vernon": 4,
+            "Everett": 3,
+            "Westin - Seattle": 2,
+            "Tacoma": 3,
+            "Olympia": 4,
+            "Portland": 3
+        },
+        "Coeur d'Alene": {
+            "Spokane": 1,
+            "Wenatchee": 2,
+            "Othello": 2,
+            "Walla Walla": 5,
+            "Pasco": 4,
+            "Pullman": 2,
+            "Lewiston": 3,
+            "Kennewick": 4,
+            "Yakima": 3,
+            "Ellensburg": 3,
+            "Vancouver": 4,
+            "Bellingham": 5,
+            "Mt Vernon": 5,
+            "Everett": 4,
+            "Westin - Seattle": 3,
+            "Tacoma": 4,
+            "Olympia": 5,
+            "Portland": 4
+        },
+        "Wenatchee": {
+            "Spokane": 1,
+            "Coeur d'Alene": 2,
+            "Othello": 2,
+            "Walla Walla": 4,
+            "Pasco": 3,
+            "Pullman": 2,
+            "Lewiston": 3,
+            "Kennewick": 3,
+            "Yakima": 2,
+            "Ellensburg": 1,
+            "Vancouver": 2,
+            "Bellingham": 3,
+            "Mt Vernon": 4,
+            "Everett": 4,
+            "Westin - Seattle": 1,
+            "Tacoma": 2,
+            "Olympia": 3,
+            "Portland": 4
+        },
+        "Othello": {
+            "Spokane": 1,
+            "Coeur d'Alene": 2,
+            "Wenatchee": 2,
+            "Walla Walla": 3,
+            "Pasco": 2,
+            "Pullman": 2,
+            "Lewiston": 3,
+            "Kennewick": 2,
+            "Yakima": 1,
+            "Ellensburg": 2,
+            "Vancouver": 3,
+            "Bellingham": 4,
+            "Mt Vernon": 5,
+            "Everett": 4,
+            "Westin - Seattle": 2,
+            "Tacoma": 3,
+            "Olympia": 4,
+            "Portland": 3
+        },
+        "Walla Walla": {
+            "Spokane": 4,
+            "Coeur d'Alene": 5,
+            "Wenatchee": 4,
+            "Othello": 3,
+            "Pasco": 1,
+            "Pullman": 5,
+            "Lewiston": 6,
+            "Kennewick": 1,
+            "Yakima": 2,
+            "Ellensburg": 3,
+            "Vancouver": 5,
+            "Bellingham": 6,
+            "Mt Vernon": 5,
+            "Everett": 4,
+            "Westin - Seattle": 3,
+            "Tacoma": 4,
+            "Olympia": 3,
+            "Portland": 2
+        },
+        "Pasco": {
+            "Spokane": 3,
+            "Coeur d'Alene": 4,
+            "Wenatchee": 4,
+            "Othello": 2,
+            "Walla Walla": 1,
+            "Pullman": 4,
+            "Lewiston": 5,
+            "Kennewick": 1,
+            "Yakima": 1,
+            "Ellensburg": 2,
+            "Vancouver": 3,
+            "Bellingham": 4,
+            "Mt Vernon": 5,
+            "Everett": 4,
+            "Westin - Seattle": 3,
+            "Tacoma": 3,
+            "Olympia": 3,
+            "Portland": 3
+        },
+        "Pullman": {
+            "Spokane": 1,
+            "Coeur d'Alene": 2,
+            "Wenatchee": 2,
+            "Othello": 2,
+            "Walla Walla": 5,
+            "Pasco": 4,
+            "Lewiston": 1,
+            "Kennewick": 4,
+            "Yakima": 3,
+            "Ellensburg": 3,
+            "Vancouver": 4,
+            "Bellingham": 5,
+            "Mt Vernon": 5,
+            "Everett": 4,
+            "Westin - Seattle": 3,
+            "Tacoma": 4,
+            "Olympia": 5,
+            "Portland": 4
+        },
+        "Lewiston": {
+            "Spokane": 2,
+            "Coeur d'Alene": 3,
+            "Wenatchee": 3,
+            "Othello": 3,
+            "Walla Walla": 6,
+            "Pasco": 5,
+            "Pullman": 1,
+            "Kennewick": 5,
+            "Yakima": 4,
+            "Ellensburg": 4,
+            "Vancouver": 5,
+            "Bellingham": 6,
+            "Mt Vernon": 6,
+            "Everett": 5,
+            "Westin - Seattle": 4,
+            "Tacoma": 5,
+            "Olympia": 6,
+            "Portland": 5
+        },
+        "Kennewick": {
+            "Spokane": 3,
+            "Coeur d'Alene": 4,
+            "Wenatchee": 3,
+            "Othello": 2,
+            "Walla Walla": 1,
+            "Pasco": 1,
+            "Pullman": 4,
+            "Lewiston": 5,
+            "Yakima": 1,
+            "Ellensburg": 2,
+            "Vancouver": 3,
+            "Bellingham": 4,
+            "Mt Vernon": 4,
+            "Everett": 3,
+            "Westin - Seattle": 2,
+            "Tacoma": 3,
+            "Olympia": 2,
+            "Portland": 1
+        },
+        "Yakima": {
+            "Spokane": 2,
+            "Coeur d'Alene": 3,
+            "Wenatchee": 2,
+            "Othello": 1,
+            "Walla Walla": 2,
+            "Pasco": 1,
+            "Pullman": 3,
+            "Lewiston": 4,
+            "Kennewick": 1,
+            "Ellensburg": 1,
+            "Vancouver": 2,
+            "Bellingham": 3,
+            "Mt Vernon": 4,
+            "Everett": 4,
+            "Westin - Seattle": 1,
+            "Tacoma": 2,
+            "Olympia": 3,
+            "Portland": 2
+        },
+        "Ellensburg": {
+            "Spokane": 2,
+            "Coeur d'Alene": 3,
+            "Wenatchee": 1,
+            "Othello": 2,
+            "Walla Walla": 3,
+            "Pasco": 2,
+            "Pullman": 3,
+            "Lewiston": 4,
+            "Kennewick": 2,
+            "Yakima": 1,
+            "Vancouver": 3,
+            "Bellingham": 4,
+            "Mt Vernon": 4,
+            "Everett": 3,
+            "Westin - Seattle": 2,
+            "Tacoma": 3,
+            "Olympia": 4,
+            "Portland": 3
+        },
+        "Vancouver": {
+            "Spokane": 3,
+            "Coeur d'Alene": 4,
+            "Wenatchee": 2,
+            "Othello": 4,
+            "Walla Walla": 4,
+            "Pasco": 3,
+            "Pullman": 4,
+            "Lewiston": 5,
+            "Kennewick": 3,
+            "Yakima": 4,
+            "Ellensburg": 3,
+            "Bellingham": 1,
+            "Mt Vernon": 2,
+            "Everett": 2,
+            "Westin - Seattle": 1,
+            "Tacoma": 2,
+            "Olympia": 3,
+            "Portland": 4
+        },
+        "Bellingham": {
+            "Spokane": 5,
+            "Coeur d'Alene": 5,
+            "Wenatchee": 4,
+            "Othello": 4,
+            "Walla Walla": 6,
+            "Pasco": 5,
+            "Pullman": 5,
+            "Lewiston": 6,
+            "Kennewick": 4,
+            "Yakima": 3,
+            "Ellensburg": 4,
+            "Vancouver": 1,
+            "Mt Vernon": 1,
+            "Everett": 2,
+            "Westin - Seattle": 2,
+            "Tacoma": 4,
+            "Olympia": 4,
+            "Portland": 3
+        },
+        "Mt Vernon": {
+            "Spokane": 4,
+            "Coeur d'Alene": 5,
+            "Wenatchee": 3,
+            "Othello": 5,
+            "Walla Walla": 5,
+            "Pasco": 4,
+            "Pullman": 5,
+            "Lewiston": 6,
+            "Kennewick": 4,
+            "Yakima": 4,
+            "Ellensburg": 4,
+            "Vancouver": 2,
+            "Bellingham": 1,
+            "Everett": 1,
+            "Westin - Seattle": 2,
+            "Tacoma": 3,
+            "Olympia": 4,
+            "Portland": 4
+        },
+        "Everett": {
+            "Spokane": 3,
+            "Coeur d'Alene": 4,
+            "Wenatchee": 2,
+            "Othello": 4,
+            "Walla Walla": 4,
+            "Pasco": 3,
+            "Pullman": 4,
+            "Lewiston": 5,
+            "Kennewick": 3,
+            "Yakima": 4,
+            "Ellensburg": 3,
+            "Vancouver": 2,
+            "Bellingham": 2,
+            "Mt Vernon": 1,
+            "Westin - Seattle": 1,
+            "Tacoma": 2,
+            "Olympia": 3,
+            "Portland": 4
+        },
+        "Westin - Seattle": {
+            "Spokane": 2,
+            "Coeur d'Alene": 3,
+            "Wenatchee": 1,
+            "Othello": 2,
+            "Walla Walla": 3,
+            "Pasco": 2,
+            "Pullman": 3,
+            "Lewiston": 4,
+            "Kennewick": 2,
+            "Yakima": 1,
+            "Ellensburg": 2,
+            "Vancouver": 1,
+            "Bellingham": 2,
+            "Mt Vernon": 2,
+            "Everett": 1,
+            "Tacoma": 1,
+            "Olympia": 2,
+            "Portland": 1
+        },
+        "Tacoma": {
+            "Spokane": 3,
+            "Coeur d'Alene": 4,
+            "Wenatchee": 2,
+            "Othello": 3,
+            "Walla Walla": 4,
+            "Pasco": 3,
+            "Pullman": 4,
+            "Lewiston": 5,
+            "Kennewick": 3,
+            "Yakima": 2,
+            "Ellensburg": 3,
+            "Vancouver": 4,
+            "Bellingham": 4,
+            "Mt Vernon": 3,
+            "Everett": 2,
+            "Westin - Seattle": 1,
+            "Olympia": 1,
+            "Portland": 2
+        },
+        "Olympia": {
+            "Spokane": 4,
+            "Coeur d'Alene": 5,
+            "Wenatchee": 3,
+            "Othello": 4,
+            "Walla Walla": 3,
+            "Pasco": 3,
+            "Pullman": 5,
+            "Lewiston": 6,
+            "Kennewick": 2,
+            "Yakima": 3,
+            "Ellensburg": 4,
+            "Vancouver": 3,
+            "Bellingham": 4,
+            "Mt Vernon": 4,
+            "Everett": 3,
+            "Westin - Seattle": 2,
+            "Tacoma": 1,
+            "Portland": 1
+        },
+        "Portland": {
+            "Spokane": 3,
+            "Coeur d'Alene": 4,
+            "Wenatchee": 4,
+            "Othello": 3,
+            "Walla Walla": 2,
+            "Pasco": 2,
+            "Pullman": 4,
+            "Lewiston": 5,
+            "Kennewick": 1,
+            "Yakima": 2,
+            "Ellensburg": 3,
+            "Vancouver": 2,
+            "Bellingham": 3,
+            "Mt Vernon": 4,
+            "Everett": 4,
+            "Westin - Seattle": 1,
+            "Tacoma": 2,
+            "Olympia": 1
+        }
+    },
+    "failure_num": 15,
+    "resultHops": {
+        "Spokane": {
+            "Coeur d'Alene": [
+                1
+            ],
+            "Wenatchee": [
+                1,
+                4
+            ],
+            "Othello": [
+                1,
+                4
+            ],
+            "Walla Walla": [
+                4,
+                7
+            ],
+            "Pasco": [
+                3,
+                9
+            ],
+            "Pullman": [
+                1
+            ],
+            "Lewiston": [
+                2
+            ],
+            "Kennewick": [
+                3,
+                4
+            ],
+            "Yakima": [
+                2,
+                5
+            ],
+            "Ellensburg": [
+                2,
+                3
+            ],
+            "Vancouver": [
+                4,
+                10
+            ],
+            "Bellingham": [
+                5,
+                7
+            ],
+            "Mt Vernon": [
+                4,
+                6
+            ],
+            "Everett": [
+                3,
+                7
+            ],
+            "Westin - Seattle": [
+                2,
+                5
+            ],
+            "Tacoma": [
+                3,
+                10
+            ],
+            "Olympia": [
+                4,
+                11
+            ],
+            "Portland": [
+                3,
+                6
+            ]
+        },
+        "Coeur d'Alene": {
+            "Spokane": [
+                1
+            ],
+            "Wenatchee": [
+                2
+            ],
+            "Othello": [
+                2
+            ],
+            "Walla Walla": [
+                5
+            ],
+            "Pasco": [
+                4
+            ],
+            "Pullman": [
+                2
+            ],
+            "Lewiston": [
+                3
+            ],
+            "Kennewick": [
+                4
+            ],
+            "Yakima": [
+                3
+            ],
+            "Ellensburg": [
+                3
+            ],
+            "Vancouver": [
+                4
+            ],
+            "Bellingham": [
+                5
+            ],
+            "Mt Vernon": [
+                5
+            ],
+            "Everett": [
+                4
+            ],
+            "Westin - Seattle": [
+                3
+            ],
+            "Tacoma": [
+                4
+            ],
+            "Olympia": [
+                5
+            ],
+            "Portland": [
+                4
+            ]
+        },
+        "Wenatchee": {
+            "Spokane": [
+                1,
+                4
+            ],
+            "Coeur d'Alene": [
+                2
+            ],
+            "Othello": [
+                2,
+                5
+            ],
+            "Walla Walla": [
+                4,
+                6
+            ],
+            "Pasco": [
+                3,
+                5,
+                5
+            ],
+            "Pullman": [
+                2
+            ],
+            "Lewiston": [
+                3
+            ],
+            "Kennewick": [
+                3,
+                4,
+                8
+            ],
+            "Yakima": [
+                2,
+                4,
+                7
+            ],
+            "Ellensburg": [
+                1,
+                3
+            ],
+            "Vancouver": [
+                2,
+                7
+            ],
+            "Bellingham": [
+                3,
+                8
+            ],
+            "Mt Vernon": [
+                4,
+                9
+            ],
+            "Everett": [
+                4,
+                11
+            ],
+            "Westin - Seattle": [
+                1,
+                4,
+                9
+            ],
+            "Tacoma": [
+                2,
+                6
+            ],
+            "Olympia": [
+                3,
+                5
+            ],
+            "Portland": [
+                4,
+                10,
+                13
+            ]
+        },
+        "Othello": {
+            "Spokane": [
+                1,
+                4
+            ],
+            "Coeur d'Alene": [
+                2
+            ],
+            "Wenatchee": [
+                2,
+                5
+            ],
+            "Walla Walla": [
+                3,
+                8
+            ],
+            "Pasco": [
+                2,
+                8
+            ],
+            "Pullman": [
+                2
+            ],
+            "Lewiston": [
+                3
+            ],
+            "Kennewick": [
+                2,
+                7
+            ],
+            "Yakima": [
+                1,
+                4
+            ],
+            "Ellensburg": [
+                2,
+                5
+            ],
+            "Vancouver": [
+                3,
+                7
+            ],
+            "Bellingham": [
+                4,
+                12
+            ],
+            "Mt Vernon": [
+                5,
+                7
+            ],
+            "Everett": [
+                4,
+                12
+            ],
+            "Westin - Seattle": [
+                2,
+                3
+            ],
+            "Tacoma": [
+                3,
+                8
+            ],
+            "Olympia": [
+                4,
+                11
+            ],
+            "Portland": [
+                3,
+                8
+            ]
+        },
+        "Walla Walla": {
+            "Spokane": [
+                4,
+                7
+            ],
+            "Coeur d'Alene": [
+                5
+            ],
+            "Wenatchee": [
+                4,
+                8
+            ],
+            "Othello": [
+                3,
+                8
+            ],
+            "Pasco": [
+                1,
+                2
+            ],
+            "Pullman": [
+                5
+            ],
+            "Lewiston": [
+                6
+            ],
+            "Kennewick": [
+                1,
+                2
+            ],
+            "Yakima": [
+                2,
+                2
+            ],
+            "Ellensburg": [
+                3,
+                5
+            ],
+            "Vancouver": [
+                5,
+                11
+            ],
+            "Bellingham": [
+                6,
+                10
+            ],
+            "Mt Vernon": [
+                5,
+                11
+            ],
+            "Everett": [
+                4,
+                12
+            ],
+            "Westin - Seattle": [
+                3,
+                6
+            ],
+            "Tacoma": [
+                4,
+                9
+            ],
+            "Olympia": [
+                3,
+                5
+            ],
+            "Portland": [
+                2,
+                4
+            ]
+        },
+        "Pasco": {
+            "Spokane": [
+                3,
+                5
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                4,
+                8,
+                11
+            ],
+            "Othello": [
+                2,
+                8
+            ],
+            "Walla Walla": [
+                1,
+                2
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Kennewick": [
+                1,
+                2,
+                2
+            ],
+            "Yakima": [
+                1,
+                2,
+                7
+            ],
+            "Ellensburg": [
+                2,
+                7
+            ],
+            "Vancouver": [
+                3,
+                9
+            ],
+            "Bellingham": [
+                4,
+                10
+            ],
+            "Mt Vernon": [
+                5,
+                11
+            ],
+            "Everett": [
+                4,
+                6
+            ],
+            "Westin - Seattle": [
+                3,
+                4,
+                4
+            ],
+            "Tacoma": [
+                3,
+                6
+            ],
+            "Olympia": [
+                3,
+                6
+            ],
+            "Portland": [
+                3,
+                6,
+                13
+            ]
+        },
+        "Pullman": {
+            "Spokane": [
+                1
+            ],
+            "Coeur d'Alene": [
+                2
+            ],
+            "Wenatchee": [
+                2
+            ],
+            "Othello": [
+                2
+            ],
+            "Walla Walla": [
+                5
+            ],
+            "Pasco": [
+                4
+            ],
+            "Lewiston": [
+                1
+            ],
+            "Kennewick": [
+                4
+            ],
+            "Yakima": [
+                3
+            ],
+            "Ellensburg": [
+                3
+            ],
+            "Vancouver": [
+                4
+            ],
+            "Bellingham": [
+                5
+            ],
+            "Mt Vernon": [
+                5
+            ],
+            "Everett": [
+                4
+            ],
+            "Westin - Seattle": [
+                3
+            ],
+            "Tacoma": [
+                4
+            ],
+            "Olympia": [
+                5
+            ],
+            "Portland": [
+                4
+            ]
+        },
+        "Lewiston": {
+            "Spokane": [
+                2
+            ],
+            "Coeur d'Alene": [
+                3
+            ],
+            "Wenatchee": [
+                3
+            ],
+            "Othello": [
+                3
+            ],
+            "Walla Walla": [
+                6
+            ],
+            "Pasco": [
+                5
+            ],
+            "Pullman": [
+                1
+            ],
+            "Kennewick": [
+                5
+            ],
+            "Yakima": [
+                4
+            ],
+            "Ellensburg": [
+                4
+            ],
+            "Vancouver": [
+                5
+            ],
+            "Bellingham": [
+                6
+            ],
+            "Mt Vernon": [
+                6
+            ],
+            "Everett": [
+                5
+            ],
+            "Westin - Seattle": [
+                4
+            ],
+            "Tacoma": [
+                5
+            ],
+            "Olympia": [
+                6
+            ],
+            "Portland": [
+                5
+            ]
+        },
+        "Kennewick": {
+            "Spokane": [
+                3,
+                8
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                3,
+                4,
+                10
+            ],
+            "Othello": [
+                2,
+                7
+            ],
+            "Walla Walla": [
+                1,
+                2
+            ],
+            "Pasco": [
+                1,
+                2,
+                4
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Yakima": [
+                1,
+                2,
+                3
+            ],
+            "Ellensburg": [
+                2,
+                4
+            ],
+            "Vancouver": [
+                3,
+                8
+            ],
+            "Bellingham": [
+                4,
+                11
+            ],
+            "Mt Vernon": [
+                4,
+                5
+            ],
+            "Everett": [
+                3,
+                8
+            ],
+            "Westin - Seattle": [
+                2,
+                5,
+                6
+            ],
+            "Tacoma": [
+                3,
+                5
+            ],
+            "Olympia": [
+                2,
+                4
+            ],
+            "Portland": [
+                1,
+                4,
+                9
+            ]
+        },
+        "Yakima": {
+            "Spokane": [
+                2,
+                5
+            ],
+            "Coeur d'Alene": [
+                3
+            ],
+            "Wenatchee": [
+                2,
+                4,
+                5
+            ],
+            "Othello": [
+                1,
+                4
+            ],
+            "Walla Walla": [
+                2,
+                2
+            ],
+            "Pasco": [
+                1,
+                2,
+                5
+            ],
+            "Pullman": [
+                3
+            ],
+            "Lewiston": [
+                4
+            ],
+            "Kennewick": [
+                1,
+                2,
+                3
+            ],
+            "Ellensburg": [
+                1,
+                3
+            ],
+            "Vancouver": [
+                2,
+                9
+            ],
+            "Bellingham": [
+                3,
+                8
+            ],
+            "Mt Vernon": [
+                4,
+                5
+            ],
+            "Everett": [
+                4,
+                5
+            ],
+            "Westin - Seattle": [
+                1,
+                3,
+                5
+            ],
+            "Tacoma": [
+                2,
+                4
+            ],
+            "Olympia": [
+                3,
+                3
+            ],
+            "Portland": [
+                2,
+                4,
+                6
+            ]
+        },
+        "Ellensburg": {
+            "Spokane": [
+                2,
+                5
+            ],
+            "Coeur d'Alene": [
+                3
+            ],
+            "Wenatchee": [
+                1,
+                3
+            ],
+            "Othello": [
+                2,
+                5
+            ],
+            "Walla Walla": [
+                3,
+                7
+            ],
+            "Pasco": [
+                2,
+                5
+            ],
+            "Pullman": [
+                3
+            ],
+            "Lewiston": [
+                4
+            ],
+            "Kennewick": [
+                2,
+                4
+            ],
+            "Yakima": [
+                1,
+                3
+            ],
+            "Vancouver": [
+                3,
+                10
+            ],
+            "Bellingham": [
+                4,
+                7
+            ],
+            "Mt Vernon": [
+                4,
+                11
+            ],
+            "Everett": [
+                3,
+                8
+            ],
+            "Westin - Seattle": [
+                2,
+                4
+            ],
+            "Tacoma": [
+                3,
+                7
+            ],
+            "Olympia": [
+                4,
+                6
+            ],
+            "Portland": [
+                3,
+                7
+            ]
+        },
+        "Vancouver": {
+            "Spokane": [
+                3,
+                11
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                2,
+                7
+            ],
+            "Othello": [
+                4,
+                10
+            ],
+            "Walla Walla": [
+                4,
+                10
+            ],
+            "Pasco": [
+                3,
+                7
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Kennewick": [
+                3,
+                8
+            ],
+            "Yakima": [
+                4,
+                11
+            ],
+            "Ellensburg": [
+                3,
+                6
+            ],
+            "Bellingham": [
+                1,
+                4
+            ],
+            "Mt Vernon": [
+                2,
+                5
+            ],
+            "Everett": [
+                2,
+                3
+            ],
+            "Westin - Seattle": [
+                1,
+                4
+            ],
+            "Tacoma": [
+                2,
+                9
+            ],
+            "Olympia": [
+                3,
+                8
+            ],
+            "Portland": [
+                4,
+                11
+            ]
+        },
+        "Bellingham": {
+            "Spokane": [
+                5,
+                11
+            ],
+            "Coeur d'Alene": [
+                5
+            ],
+            "Wenatchee": [
+                4,
+                9
+            ],
+            "Othello": [
+                4,
+                6
+            ],
+            "Walla Walla": [
+                6,
+                14
+            ],
+            "Pasco": [
+                5,
+                9
+            ],
+            "Pullman": [
+                5
+            ],
+            "Lewiston": [
+                6
+            ],
+            "Kennewick": [
+                4,
+                5
+            ],
+            "Yakima": [
+                3,
+                8
+            ],
+            "Ellensburg": [
+                4,
+                5
+            ],
+            "Vancouver": [
+                1,
+                4
+            ],
+            "Mt Vernon": [
+                1,
+                4
+            ],
+            "Everett": [
+                2,
+                3
+            ],
+            "Westin - Seattle": [
+                2,
+                3
+            ],
+            "Tacoma": [
+                4,
+                5
+            ],
+            "Olympia": [
+                4,
+                7
+            ],
+            "Portland": [
+                3,
+                6
+            ]
+        },
+        "Mt Vernon": {
+            "Spokane": [
+                4,
+                6
+            ],
+            "Coeur d'Alene": [
+                5
+            ],
+            "Wenatchee": [
+                3,
+                10
+            ],
+            "Othello": [
+                5,
+                13
+            ],
+            "Walla Walla": [
+                5,
+                7
+            ],
+            "Pasco": [
+                4,
+                8
+            ],
+            "Pullman": [
+                5
+            ],
+            "Lewiston": [
+                6
+            ],
+            "Kennewick": [
+                4,
+                11
+            ],
+            "Yakima": [
+                4,
+                9
+            ],
+            "Ellensburg": [
+                4,
+                9
+            ],
+            "Vancouver": [
+                2,
+                5
+            ],
+            "Bellingham": [
+                1,
+                4
+            ],
+            "Everett": [
+                1,
+                4
+            ],
+            "Westin - Seattle": [
+                2,
+                5
+            ],
+            "Tacoma": [
+                3,
+                6
+            ],
+            "Olympia": [
+                4,
+                11
+            ],
+            "Portland": [
+                4,
+                7
+            ]
+        },
+        "Everett": {
+            "Spokane": [
+                3,
+                11
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                2,
+                7
+            ],
+            "Othello": [
+                4,
+                12
+            ],
+            "Walla Walla": [
+                4,
+                12
+            ],
+            "Pasco": [
+                3,
+                11
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Kennewick": [
+                3,
+                6
+            ],
+            "Yakima": [
+                4,
+                5
+            ],
+            "Ellensburg": [
+                3,
+                8
+            ],
+            "Vancouver": [
+                2,
+                3
+            ],
+            "Bellingham": [
+                2,
+                3
+            ],
+            "Mt Vernon": [
+                1,
+                4
+            ],
+            "Westin - Seattle": [
+                1,
+                4
+            ],
+            "Tacoma": [
+                2,
+                7
+            ],
+            "Olympia": [
+                3,
+                10
+            ],
+            "Portland": [
+                4,
+                11
+            ]
+        },
+        "Westin - Seattle": {
+            "Spokane": [
+                2,
+                3
+            ],
+            "Coeur d'Alene": [
+                3
+            ],
+            "Wenatchee": [
+                1,
+                3,
+                6
+            ],
+            "Othello": [
+                2,
+                5
+            ],
+            "Walla Walla": [
+                3,
+                6
+            ],
+            "Pasco": [
+                2,
+                6,
+                9
+            ],
+            "Pullman": [
+                3
+            ],
+            "Lewiston": [
+                4
+            ],
+            "Kennewick": [
+                2,
+                3,
+                4
+            ],
+            "Yakima": [
+                1,
+                3,
+                7
+            ],
+            "Ellensburg": [
+                2,
+                2
+            ],
+            "Vancouver": [
+                1,
+                4
+            ],
+            "Bellingham": [
+                2,
+                3
+            ],
+            "Mt Vernon": [
+                2,
+                3
+            ],
+            "Everett": [
+                1,
+                4
+            ],
+            "Tacoma": [
+                1,
+                3
+            ],
+            "Olympia": [
+                2,
+                2
+            ],
+            "Portland": [
+                1,
+                3,
+                5
+            ]
+        },
+        "Tacoma": {
+            "Spokane": [
+                3,
+                10
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                2,
+                6
+            ],
+            "Othello": [
+                3,
+                10
+            ],
+            "Walla Walla": [
+                4,
+                7
+            ],
+            "Pasco": [
+                3,
+                4
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Kennewick": [
+                3,
+                7
+            ],
+            "Yakima": [
+                2,
+                6
+            ],
+            "Ellensburg": [
+                3,
+                7
+            ],
+            "Vancouver": [
+                4,
+                5
+            ],
+            "Bellingham": [
+                4,
+                11
+            ],
+            "Mt Vernon": [
+                3,
+                8
+            ],
+            "Everett": [
+                2,
+                7
+            ],
+            "Westin - Seattle": [
+                1,
+                3
+            ],
+            "Olympia": [
+                1,
+                3
+            ],
+            "Portland": [
+                2,
+                4
+            ]
+        },
+        "Olympia": {
+            "Spokane": [
+                4,
+                7
+            ],
+            "Coeur d'Alene": [
+                5
+            ],
+            "Wenatchee": [
+                3,
+                7
+            ],
+            "Othello": [
+                4,
+                9
+            ],
+            "Walla Walla": [
+                3,
+                9
+            ],
+            "Pasco": [
+                3,
+                4
+            ],
+            "Pullman": [
+                5
+            ],
+            "Lewiston": [
+                6
+            ],
+            "Kennewick": [
+                2,
+                6
+            ],
+            "Yakima": [
+                3,
+                3
+            ],
+            "Ellensburg": [
+                4,
+                4
+            ],
+            "Vancouver": [
+                3,
+                10
+            ],
+            "Bellingham": [
+                4,
+                5
+            ],
+            "Mt Vernon": [
+                4,
+                9
+            ],
+            "Everett": [
+                3,
+                6
+            ],
+            "Westin - Seattle": [
+                2,
+                4
+            ],
+            "Tacoma": [
+                1,
+                3
+            ],
+            "Portland": [
+                1,
+                3
+            ]
+        },
+        "Portland": {
+            "Spokane": [
+                3,
+                4
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                4,
+                8,
+                11
+            ],
+            "Othello": [
+                3,
+                8
+            ],
+            "Walla Walla": [
+                2,
+                4
+            ],
+            "Pasco": [
+                2,
+                7,
+                13
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Kennewick": [
+                1,
+                3,
+                10
+            ],
+            "Yakima": [
+                2,
+                4,
+                10
+            ],
+            "Ellensburg": [
+                3,
+                7
+            ],
+            "Vancouver": [
+                2,
+                7
+            ],
+            "Bellingham": [
+                3,
+                6
+            ],
+            "Mt Vernon": [
+                4,
+                7
+            ],
+            "Everett": [
+                4,
+                5
+            ],
+            "Westin - Seattle": [
+                1,
+                3,
+                5
+            ],
+            "Tacoma": [
+                2,
+                2
+            ],
+            "Olympia": [
+                1,
+                3
+            ]
+        }
+    },
+    "resultHopsShortCut": {
+        "Spokane": {
+            "Coeur d'Alene": [
+                1
+            ],
+            "Wenatchee": [
+                1,
+                4
+            ],
+            "Othello": [
+                1,
+                4
+            ],
+            "Walla Walla": [
+                4,
+                5
+            ],
+            "Pasco": [
+                3,
+                5
+            ],
+            "Pullman": [
+                1
+            ],
+            "Lewiston": [
+                2
+            ],
+            "Kennewick": [
+                3,
+                4
+            ],
+            "Yakima": [
+                2,
+                3
+            ],
+            "Ellensburg": [
+                2,
+                3
+            ],
+            "Vancouver": [
+                4,
+                6
+            ],
+            "Bellingham": [
+                5,
+                5
+            ],
+            "Mt Vernon": [
+                4,
+                6
+            ],
+            "Everett": [
+                3,
+                7
+            ],
+            "Westin - Seattle": [
+                2,
+                3
+            ],
+            "Tacoma": [
+                3,
+                6
+            ],
+            "Olympia": [
+                4,
+                5
+            ],
+            "Portland": [
+                3,
+                4
+            ]
+        },
+        "Coeur d'Alene": {
+            "Spokane": [
+                1
+            ],
+            "Wenatchee": [
+                2
+            ],
+            "Othello": [
+                2
+            ],
+            "Walla Walla": [
+                5
+            ],
+            "Pasco": [
+                4
+            ],
+            "Pullman": [
+                2
+            ],
+            "Lewiston": [
+                3
+            ],
+            "Kennewick": [
+                4
+            ],
+            "Yakima": [
+                3
+            ],
+            "Ellensburg": [
+                3
+            ],
+            "Vancouver": [
+                4
+            ],
+            "Bellingham": [
+                5
+            ],
+            "Mt Vernon": [
+                5
+            ],
+            "Everett": [
+                4
+            ],
+            "Westin - Seattle": [
+                3
+            ],
+            "Tacoma": [
+                4
+            ],
+            "Olympia": [
+                5
+            ],
+            "Portland": [
+                4
+            ]
+        },
+        "Wenatchee": {
+            "Spokane": [
+                1,
+                4
+            ],
+            "Coeur d'Alene": [
+                2
+            ],
+            "Othello": [
+                2,
+                3
+            ],
+            "Walla Walla": [
+                4,
+                4
+            ],
+            "Pasco": [
+                3,
+                5,
+                5
+            ],
+            "Pullman": [
+                2
+            ],
+            "Lewiston": [
+                3
+            ],
+            "Kennewick": [
+                3,
+                4,
+                4
+            ],
+            "Yakima": [
+                2,
+                2,
+                3
+            ],
+            "Ellensburg": [
+                1,
+                3
+            ],
+            "Vancouver": [
+                2,
+                7
+            ],
+            "Bellingham": [
+                3,
+                6
+            ],
+            "Mt Vernon": [
+                4,
+                5
+            ],
+            "Everett": [
+                4,
+                5
+            ],
+            "Westin - Seattle": [
+                1,
+                4,
+                5
+            ],
+            "Tacoma": [
+                2,
+                6
+            ],
+            "Olympia": [
+                3,
+                5
+            ],
+            "Portland": [
+                4,
+                4,
+                5
+            ]
+        },
+        "Othello": {
+            "Spokane": [
+                1,
+                4
+            ],
+            "Coeur d'Alene": [
+                2
+            ],
+            "Wenatchee": [
+                2,
+                3
+            ],
+            "Walla Walla": [
+                3,
+                6
+            ],
+            "Pasco": [
+                2,
+                6
+            ],
+            "Pullman": [
+                2
+            ],
+            "Lewiston": [
+                3
+            ],
+            "Kennewick": [
+                2,
+                5
+            ],
+            "Yakima": [
+                1,
+                4
+            ],
+            "Ellensburg": [
+                2,
+                3
+            ],
+            "Vancouver": [
+                3,
+                7
+            ],
+            "Bellingham": [
+                4,
+                6
+            ],
+            "Mt Vernon": [
+                5,
+                5
+            ],
+            "Everett": [
+                4,
+                6
+            ],
+            "Westin - Seattle": [
+                2,
+                3
+            ],
+            "Tacoma": [
+                3,
+                6
+            ],
+            "Olympia": [
+                4,
+                5
+            ],
+            "Portland": [
+                3,
+                4
+            ]
+        },
+        "Walla Walla": {
+            "Spokane": [
+                4,
+                5
+            ],
+            "Coeur d'Alene": [
+                5
+            ],
+            "Wenatchee": [
+                4,
+                4
+            ],
+            "Othello": [
+                3,
+                6
+            ],
+            "Pasco": [
+                1,
+                2
+            ],
+            "Pullman": [
+                5
+            ],
+            "Lewiston": [
+                6
+            ],
+            "Kennewick": [
+                1,
+                2
+            ],
+            "Yakima": [
+                2,
+                2
+            ],
+            "Ellensburg": [
+                3,
+                5
+            ],
+            "Vancouver": [
+                5,
+                7
+            ],
+            "Bellingham": [
+                6,
+                6
+            ],
+            "Mt Vernon": [
+                5,
+                7
+            ],
+            "Everett": [
+                4,
+                8
+            ],
+            "Westin - Seattle": [
+                3,
+                4
+            ],
+            "Tacoma": [
+                4,
+                5
+            ],
+            "Olympia": [
+                3,
+                5
+            ],
+            "Portland": [
+                2,
+                4
+            ]
+        },
+        "Pasco": {
+            "Spokane": [
+                3,
+                5
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                4,
+                4,
+                5
+            ],
+            "Othello": [
+                2,
+                6
+            ],
+            "Walla Walla": [
+                1,
+                2
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Kennewick": [
+                1,
+                2,
+                2
+            ],
+            "Yakima": [
+                1,
+                2,
+                5
+            ],
+            "Ellensburg": [
+                2,
+                5
+            ],
+            "Vancouver": [
+                3,
+                7
+            ],
+            "Bellingham": [
+                4,
+                6
+            ],
+            "Mt Vernon": [
+                5,
+                5
+            ],
+            "Everett": [
+                4,
+                6
+            ],
+            "Westin - Seattle": [
+                3,
+                4,
+                4
+            ],
+            "Tacoma": [
+                3,
+                4
+            ],
+            "Olympia": [
+                3,
+                4
+            ],
+            "Portland": [
+                3,
+                4,
+                7
+            ]
+        },
+        "Pullman": {
+            "Spokane": [
+                1
+            ],
+            "Coeur d'Alene": [
+                2
+            ],
+            "Wenatchee": [
+                2
+            ],
+            "Othello": [
+                2
+            ],
+            "Walla Walla": [
+                5
+            ],
+            "Pasco": [
+                4
+            ],
+            "Lewiston": [
+                1
+            ],
+            "Kennewick": [
+                4
+            ],
+            "Yakima": [
+                3
+            ],
+            "Ellensburg": [
+                3
+            ],
+            "Vancouver": [
+                4
+            ],
+            "Bellingham": [
+                5
+            ],
+            "Mt Vernon": [
+                5
+            ],
+            "Everett": [
+                4
+            ],
+            "Westin - Seattle": [
+                3
+            ],
+            "Tacoma": [
+                4
+            ],
+            "Olympia": [
+                5
+            ],
+            "Portland": [
+                4
+            ]
+        },
+        "Lewiston": {
+            "Spokane": [
+                2
+            ],
+            "Coeur d'Alene": [
+                3
+            ],
+            "Wenatchee": [
+                3
+            ],
+            "Othello": [
+                3
+            ],
+            "Walla Walla": [
+                6
+            ],
+            "Pasco": [
+                5
+            ],
+            "Pullman": [
+                1
+            ],
+            "Kennewick": [
+                5
+            ],
+            "Yakima": [
+                4
+            ],
+            "Ellensburg": [
+                4
+            ],
+            "Vancouver": [
+                5
+            ],
+            "Bellingham": [
+                6
+            ],
+            "Mt Vernon": [
+                6
+            ],
+            "Everett": [
+                5
+            ],
+            "Westin - Seattle": [
+                4
+            ],
+            "Tacoma": [
+                5
+            ],
+            "Olympia": [
+                6
+            ],
+            "Portland": [
+                5
+            ]
+        },
+        "Kennewick": {
+            "Spokane": [
+                3,
+                4
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                3,
+                4,
+                4
+            ],
+            "Othello": [
+                2,
+                5
+            ],
+            "Walla Walla": [
+                1,
+                2
+            ],
+            "Pasco": [
+                1,
+                2,
+                2
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Yakima": [
+                1,
+                2,
+                3
+            ],
+            "Ellensburg": [
+                2,
+                4
+            ],
+            "Vancouver": [
+                3,
+                6
+            ],
+            "Bellingham": [
+                4,
+                5
+            ],
+            "Mt Vernon": [
+                4,
+                5
+            ],
+            "Everett": [
+                3,
+                6
+            ],
+            "Westin - Seattle": [
+                2,
+                3,
+                4
+            ],
+            "Tacoma": [
+                3,
+                3
+            ],
+            "Olympia": [
+                2,
+                4
+            ],
+            "Portland": [
+                1,
+                4,
+                7
+            ]
+        },
+        "Yakima": {
+            "Spokane": [
+                2,
+                3
+            ],
+            "Coeur d'Alene": [
+                3
+            ],
+            "Wenatchee": [
+                2,
+                2,
+                3
+            ],
+            "Othello": [
+                1,
+                4
+            ],
+            "Walla Walla": [
+                2,
+                2
+            ],
+            "Pasco": [
+                1,
+                2,
+                5
+            ],
+            "Pullman": [
+                3
+            ],
+            "Lewiston": [
+                4
+            ],
+            "Kennewick": [
+                1,
+                2,
+                3
+            ],
+            "Ellensburg": [
+                1,
+                3
+            ],
+            "Vancouver": [
+                2,
+                7
+            ],
+            "Bellingham": [
+                3,
+                6
+            ],
+            "Mt Vernon": [
+                4,
+                5
+            ],
+            "Everett": [
+                4,
+                5
+            ],
+            "Westin - Seattle": [
+                1,
+                3,
+                3
+            ],
+            "Tacoma": [
+                2,
+                4
+            ],
+            "Olympia": [
+                3,
+                3
+            ],
+            "Portland": [
+                2,
+                4,
+                4
+            ]
+        },
+        "Ellensburg": {
+            "Spokane": [
+                2,
+                3
+            ],
+            "Coeur d'Alene": [
+                3
+            ],
+            "Wenatchee": [
+                1,
+                3
+            ],
+            "Othello": [
+                2,
+                3
+            ],
+            "Walla Walla": [
+                3,
+                5
+            ],
+            "Pasco": [
+                2,
+                5
+            ],
+            "Pullman": [
+                3
+            ],
+            "Lewiston": [
+                4
+            ],
+            "Kennewick": [
+                2,
+                4
+            ],
+            "Yakima": [
+                1,
+                3
+            ],
+            "Vancouver": [
+                3,
+                6
+            ],
+            "Bellingham": [
+                4,
+                5
+            ],
+            "Mt Vernon": [
+                4,
+                5
+            ],
+            "Everett": [
+                3,
+                6
+            ],
+            "Westin - Seattle": [
+                2,
+                2
+            ],
+            "Tacoma": [
+                3,
+                5
+            ],
+            "Olympia": [
+                4,
+                4
+            ],
+            "Portland": [
+                3,
+                3
+            ]
+        },
+        "Vancouver": {
+            "Spokane": [
+                3,
+                7
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                2,
+                7
+            ],
+            "Othello": [
+                4,
+                6
+            ],
+            "Walla Walla": [
+                4,
+                8
+            ],
+            "Pasco": [
+                3,
+                7
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Kennewick": [
+                3,
+                6
+            ],
+            "Yakima": [
+                4,
+                5
+            ],
+            "Ellensburg": [
+                3,
+                6
+            ],
+            "Bellingham": [
+                1,
+                4
+            ],
+            "Mt Vernon": [
+                2,
+                3
+            ],
+            "Everett": [
+                2,
+                3
+            ],
+            "Westin - Seattle": [
+                1,
+                4
+            ],
+            "Tacoma": [
+                2,
+                7
+            ],
+            "Olympia": [
+                3,
+                6
+            ],
+            "Portland": [
+                4,
+                5
+            ]
+        },
+        "Bellingham": {
+            "Spokane": [
+                5,
+                5
+            ],
+            "Coeur d'Alene": [
+                5
+            ],
+            "Wenatchee": [
+                4,
+                5
+            ],
+            "Othello": [
+                4,
+                6
+            ],
+            "Walla Walla": [
+                6,
+                6
+            ],
+            "Pasco": [
+                5,
+                5
+            ],
+            "Pullman": [
+                5
+            ],
+            "Lewiston": [
+                6
+            ],
+            "Kennewick": [
+                4,
+                5
+            ],
+            "Yakima": [
+                3,
+                6
+            ],
+            "Ellensburg": [
+                4,
+                5
+            ],
+            "Vancouver": [
+                1,
+                4
+            ],
+            "Mt Vernon": [
+                1,
+                4
+            ],
+            "Everett": [
+                2,
+                3
+            ],
+            "Westin - Seattle": [
+                2,
+                3
+            ],
+            "Tacoma": [
+                4,
+                5
+            ],
+            "Olympia": [
+                4,
+                5
+            ],
+            "Portland": [
+                3,
+                6
+            ]
+        },
+        "Mt Vernon": {
+            "Spokane": [
+                4,
+                6
+            ],
+            "Coeur d'Alene": [
+                5
+            ],
+            "Wenatchee": [
+                3,
+                6
+            ],
+            "Othello": [
+                5,
+                5
+            ],
+            "Walla Walla": [
+                5,
+                7
+            ],
+            "Pasco": [
+                4,
+                6
+            ],
+            "Pullman": [
+                5
+            ],
+            "Lewiston": [
+                6
+            ],
+            "Kennewick": [
+                4,
+                5
+            ],
+            "Yakima": [
+                4,
+                5
+            ],
+            "Ellensburg": [
+                4,
+                5
+            ],
+            "Vancouver": [
+                2,
+                3
+            ],
+            "Bellingham": [
+                1,
+                4
+            ],
+            "Everett": [
+                1,
+                4
+            ],
+            "Westin - Seattle": [
+                2,
+                3
+            ],
+            "Tacoma": [
+                3,
+                6
+            ],
+            "Olympia": [
+                4,
+                5
+            ],
+            "Portland": [
+                4,
+                5
+            ]
+        },
+        "Everett": {
+            "Spokane": [
+                3,
+                7
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                2,
+                7
+            ],
+            "Othello": [
+                4,
+                6
+            ],
+            "Walla Walla": [
+                4,
+                8
+            ],
+            "Pasco": [
+                3,
+                7
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Kennewick": [
+                3,
+                6
+            ],
+            "Yakima": [
+                4,
+                5
+            ],
+            "Ellensburg": [
+                3,
+                6
+            ],
+            "Vancouver": [
+                2,
+                3
+            ],
+            "Bellingham": [
+                2,
+                3
+            ],
+            "Mt Vernon": [
+                1,
+                4
+            ],
+            "Westin - Seattle": [
+                1,
+                4
+            ],
+            "Tacoma": [
+                2,
+                7
+            ],
+            "Olympia": [
+                3,
+                6
+            ],
+            "Portland": [
+                4,
+                5
+            ]
+        },
+        "Westin - Seattle": {
+            "Spokane": [
+                2,
+                3
+            ],
+            "Coeur d'Alene": [
+                3
+            ],
+            "Wenatchee": [
+                1,
+                3,
+                6
+            ],
+            "Othello": [
+                2,
+                3
+            ],
+            "Walla Walla": [
+                3,
+                4
+            ],
+            "Pasco": [
+                2,
+                4,
+                5
+            ],
+            "Pullman": [
+                3
+            ],
+            "Lewiston": [
+                4
+            ],
+            "Kennewick": [
+                2,
+                3,
+                4
+            ],
+            "Yakima": [
+                1,
+                3,
+                3
+            ],
+            "Ellensburg": [
+                2,
+                2
+            ],
+            "Vancouver": [
+                1,
+                4
+            ],
+            "Bellingham": [
+                2,
+                3
+            ],
+            "Mt Vernon": [
+                2,
+                3
+            ],
+            "Everett": [
+                1,
+                4
+            ],
+            "Tacoma": [
+                1,
+                3
+            ],
+            "Olympia": [
+                2,
+                2
+            ],
+            "Portland": [
+                1,
+                3,
+                3
+            ]
+        },
+        "Tacoma": {
+            "Spokane": [
+                3,
+                6
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                2,
+                6
+            ],
+            "Othello": [
+                3,
+                6
+            ],
+            "Walla Walla": [
+                4,
+                5
+            ],
+            "Pasco": [
+                3,
+                4
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Kennewick": [
+                3,
+                3
+            ],
+            "Yakima": [
+                2,
+                4
+            ],
+            "Ellensburg": [
+                3,
+                5
+            ],
+            "Vancouver": [
+                4,
+                5
+            ],
+            "Bellingham": [
+                4,
+                5
+            ],
+            "Mt Vernon": [
+                3,
+                6
+            ],
+            "Everett": [
+                2,
+                7
+            ],
+            "Westin - Seattle": [
+                1,
+                3
+            ],
+            "Olympia": [
+                1,
+                3
+            ],
+            "Portland": [
+                2,
+                2
+            ]
+        },
+        "Olympia": {
+            "Spokane": [
+                4,
+                5
+            ],
+            "Coeur d'Alene": [
+                5
+            ],
+            "Wenatchee": [
+                3,
+                5
+            ],
+            "Othello": [
+                4,
+                5
+            ],
+            "Walla Walla": [
+                3,
+                5
+            ],
+            "Pasco": [
+                3,
+                4
+            ],
+            "Pullman": [
+                5
+            ],
+            "Lewiston": [
+                6
+            ],
+            "Kennewick": [
+                2,
+                4
+            ],
+            "Yakima": [
+                3,
+                3
+            ],
+            "Ellensburg": [
+                4,
+                4
+            ],
+            "Vancouver": [
+                3,
+                6
+            ],
+            "Bellingham": [
+                4,
+                5
+            ],
+            "Mt Vernon": [
+                4,
+                5
+            ],
+            "Everett": [
+                3,
+                6
+            ],
+            "Westin - Seattle": [
+                2,
+                2
+            ],
+            "Tacoma": [
+                1,
+                3
+            ],
+            "Portland": [
+                1,
+                3
+            ]
+        },
+        "Portland": {
+            "Spokane": [
+                3,
+                4
+            ],
+            "Coeur d'Alene": [
+                4
+            ],
+            "Wenatchee": [
+                4,
+                4,
+                5
+            ],
+            "Othello": [
+                3,
+                4
+            ],
+            "Walla Walla": [
+                2,
+                4
+            ],
+            "Pasco": [
+                2,
+                5,
+                7
+            ],
+            "Pullman": [
+                4
+            ],
+            "Lewiston": [
+                5
+            ],
+            "Kennewick": [
+                1,
+                3,
+                8
+            ],
+            "Yakima": [
+                2,
+                2,
+                6
+            ],
+            "Ellensburg": [
+                3,
+                3
+            ],
+            "Vancouver": [
+                2,
+                7
+            ],
+            "Bellingham": [
+                3,
+                6
+            ],
+            "Mt Vernon": [
+                4,
+                5
+            ],
+            "Everett": [
+                4,
+                5
+            ],
+            "Westin - Seattle": [
+                1,
+                3,
+                3
+            ],
+            "Tacoma": [
+                2,
+                2
+            ],
+            "Olympia": [
+                1,
+                3
+            ]
+        }
+    }
+}
