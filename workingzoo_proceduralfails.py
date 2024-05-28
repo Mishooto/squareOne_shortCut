@@ -34,76 +34,76 @@ def load_graph(file_path):
 
 
 #SQ1 experiments
-def sq1_experiments(n, k, failure_num, rep, ran_dom, fail_random, filename, gr):
-    if ran_dom:        
-        for i in range(rep):
-            print('rep: '+ str(i))
-            start_rep = time.time()
-            if fail_random:
-                g = gr
-            else:
-                g = create_graphs(n, k, i, 1)
-            nodes = list(g.nodes())
-            edges = list(g.edges())
-            resultHops = {}
-            resultHopsShortCut = {}
-            resultShortestPathForStretch = {}
-            if fail_random:
-                filename_pickle = 'results/workingzoo/' + 'SQ1_ShortCut_' + '_graph_' + str(ran_dom) + '_' + str(n) + '_' + str(len(edges)) + '_' + str(i) + '_' + str(fail_random) + '_' + str(failure_num) + '.pickle'
-            else:
-                filename_json = 'results/workingzoo/' + filename + str(i) + '.json'
-            for source in nodes:
-                resultHops[source] = {}
-                resultHopsShortCut[source] = {}  
-                resultShortestPathForStretch[source] = {}              
-                for destination in nodes:
-                    if source == destination:
-                        continue
-                
-                    #disjoint_path_list = get_disjoint_path(g, destination)
-                    disjoint_path_list = get_disjoint_path(g, destination, fullrandom=True)
-                    disjoint_path_list_shortcut = disjoint_path_list
-                    #fails_list = get_fails_list(g, source, destination, disjoint_path_list, True, failure_num)
-                    fails_list = get_fails_list(g, source, destination, disjoint_path_list, False, failure_num)
-                    hop_list = []
-                    hop_list_shortcut = []
-                    dis_joint_path = disjoint_path_list_shortcut[source][destination]
-                    dis_joint_path_shortcut = dis_joint_path
-                    resultShortestPathForStretch[source][destination] = len(dis_joint_path[0])-1
+def sq1_experiments(n, k, failure_num, rep, fail_random, filename, gr):   
+    for i in range(rep):
+        print('rep: '+ str(i))
+        start_rep = time.time()
+        #if fail_random:
+        g = gr
+        #else:
+        #    g = create_graphs(n, k, i, 1)
+        nodes = list(g.nodes())
+        edges = list(g.edges())
+        resultHops = {}
+        resultHopsShortCut = {}
+        resultShortestPathForStretch = {}
+        #if fail_random:
+        #    filename_pickle = 'results/workingzoo/' + 'SQ1_ShortCut_' + '_graph_' + str(ran_dom) + '_' + str(n) + '_' + str(len(edges)) + '_' + str(i) + '_' + str(fail_random) + '_' + str(failure_num) + '.pickle'
+        #else:
+        #    filename_json = 'results/workingzoo/' + filename + str(i) + '.json'
+        #filename_json = 'results/workingzoo/'+filename+str(i)+'.json'
+        filename_json= 'results/workingzoo/'+filename+str(i)+'.json'
+        print(filename_json)
+        for source in nodes:
+            resultHops[source] = {}
+            resultHopsShortCut[source] = {}  
+            resultShortestPathForStretch[source] = {}              
+            for destination in nodes:
+                if source == destination:
+                    continue
+            
+                #disjoint_path_list = get_disjoint_path(g, destination)
+                disjoint_path_list = get_disjoint_path(g, destination, fullrandom=True)
+                disjoint_path_list_shortcut = disjoint_path_list
+                #fails_list = get_fails_list(g, source, destination, disjoint_path_list, True, failure_num)
+                fails_list = get_fails_list(g, source, destination, disjoint_path_list, fail_random, failure_num)
+                hop_list = []
+                hop_list_shortcut = []
+                dis_joint_path = disjoint_path_list_shortcut[source][destination]
+                dis_joint_path_shortcut = dis_joint_path
+                resultShortestPathForStretch[source][destination] = len(dis_joint_path[0])-1
 
-                    for j in range(0, len(fails_list)):
-                        fails_sublist = fails_list[:j]
-                        #update()
-                        [_, hops, _, detour, _]= routingSQ1(dis_joint_path, source, destination, n, fails_sublist, sc_bool= False)
-                        [_, hopsS, _, detourS, dis_joint_path_shortcut] = routingSQ1(dis_joint_path_shortcut, source, destination, n, fails_sublist, sc_bool= True) 
-                        hop_list.append(hops)
-                        hop_list_shortcut.append(hopsS)
-                        #hop_list_shortcut.append(len(disjoint_path_list_shortcut[source][destination][j])-1)
-                    #hops_array = np.append(hops_array,[hop_list],axis=0)
-                    #hopsS_array = np.append(hopsS_array,[hop_list_shortcut],axis=0)
-                    # hops_list_rep.append(hop_list)
-                    # hops_list_shortcut_rep.append(hop_list_shortcut)
-                    #array2 = np.append(array,[liste], axis=0)
-                    resultHops[source][destination] = hop_list
-                    resultHopsShortCut[source][destination] = hop_list_shortcut
-            data_for_json = {
-            "nodes": nodes,
-            "edges": edges,
-            "experiment_index": i,
-            "resultShortestPathForStretch": resultShortestPathForStretch,
-            "failure_num": failure_num,
-            "resultHops": resultHops,
-            "resultHopsShortCut": resultHopsShortCut
-        }
-            # Save as JSON
-            with open(filename, 'w') as json_file:
-                json.dump(data_for_json, json_file, indent=4)
-            end_rep = time.time()
-            print(time.asctime( time.localtime(start_rep)))
-            print(time.asctime( time.localtime(end_rep)))   
-            #toPickle = DataGraphs(seed, ran_dom, nodes, edges, i, resultShortestPathForStretch, fail_random, failure_num, resultHops, resultHopsShortCut) 
-    else:
-        g = nx.read_gml("benchmark_graphs/BtEurope.gml")
+                for j in range(0, len(fails_list)):
+                    fails_sublist = fails_list[:j]
+                    #update()
+                    [_, hops, _, detour, _]= routingSQ1(dis_joint_path, source, destination, n, fails_sublist, sc_bool= False)
+                    [_, hopsS, _, detourS, dis_joint_path_shortcut] = routingSQ1(dis_joint_path_shortcut, source, destination, n, fails_sublist, sc_bool= True) 
+                    hop_list.append(hops)
+                    hop_list_shortcut.append(hopsS)
+                    #hop_list_shortcut.append(len(disjoint_path_list_shortcut[source][destination][j])-1)
+                #hops_array = np.append(hops_array,[hop_list],axis=0)
+                #hopsS_array = np.append(hopsS_array,[hop_list_shortcut],axis=0)
+                # hops_list_rep.append(hop_list)
+                # hops_list_shortcut_rep.append(hop_list_shortcut)
+                #array2 = np.append(array,[liste], axis=0)
+                resultHops[source][destination] = hop_list
+                resultHopsShortCut[source][destination] = hop_list_shortcut
+        data_for_json = {
+        "nodes": nodes,
+        "edges": edges,
+        "experiment_index": i,
+        "resultShortestPathForStretch": resultShortestPathForStretch,
+        "failure_num": failure_num,
+        "resultHops": resultHops,
+        "resultHopsShortCut": resultHopsShortCut
+    }
+        # Save as JSON
+        with open(filename_json, 'w') as json_file:
+            json.dump(data_for_json, json_file, indent=4)
+        end_rep = time.time()
+        print(time.asctime( time.localtime(start_rep)))
+        print(time.asctime( time.localtime(end_rep)))   
+        #toPickle = DataGraphs(seed, ran_dom, nodes, edges, i, resultShortestPathForStretch, fail_random, failure_num, resultHops, resultHopsShortCut) 
 
 #Create a graph
 def create_graphs(n, k, rep, seed):
@@ -237,18 +237,20 @@ if __name__ == "__main__":
     failure_num = 15
     ran_dom = True
     #fail_random False takes more computing time
-    fail_random = False
-
+    #fail_random = True
+    fail_random = True
     #ran_dom = True
     #fail_random = False
     #G = nx.Graph()
 
-    graph_file_path = '/home/mikheil/Desktop/SQ1_ShortCut-main/newdir/Noel_edited.gml'  
-    filename =  os.path.basename(graph_file_path)
+    graph_file_path = '/home/mikheil/Desktop/SQ1_ShortCut-main/newdir/Abvt_edited.gml'  
+    #filename =  os.path.basename(graph_file_path)
+    #print(filename)
     gr = load_graph(graph_file_path)
-
+    filename_without_ext = os.path.splitext(os.path.basename(graph_file_path))[0]
+    print(filename_without_ext)
     print('start')
-    sq1_experiments(n, k, failure_num, rep, ran_dom, fail_random, filename, gr)
+    sq1_experiments(n, k, failure_num, rep, fail_random, filename_without_ext, gr)
     print('ende')
     end = time.time()
     print('Total execution time:', end - start)
